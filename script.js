@@ -107,5 +107,5 @@ function smenaPod() {
 
 let audio = new Audio();
 audio.preload = 'auto';
-audio.src = '/path/to/f_4dbaa79f18001.mp3';
+audio.src = 'gitara-melodiya-rok-n-roll-korotkaya.mp3';
 audio.play();
