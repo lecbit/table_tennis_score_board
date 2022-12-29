@@ -1,0 +1,64 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-color: gray;
+}
+
+h1{
+  color: green;
+}
+
+.num
+{
+  color: green;
+  font-size: 120px;
+}
+
+.num_t
+{
+  background-color: black;
+}
+
+.counter
+{
+  margin-top: 10%;
+}
+
+.names
+{
+  margin-top: 50%;
+}
+
+.settings
+{
+  margin-top: 10%;
+}
+
+.pp
+{
+  width: 30px;
+  height: 30px;
+  outline: 2px solid #ff579d;
+  
+}
+
+.balls
+{
+  margin-top: 20px;
+}
+.mbox
+{
+  border: 1px solid orange;
+  height: 30px;
+  background-color: green;
+}
+
+#poda2 .mbox
+{
+  background-color: red;
+}
+
+.smena_podachi
+{
+  
+}
