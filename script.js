@@ -16,8 +16,11 @@ let smena_pod = document.getElementById('smena_podachi');
 let countPodach = 1;
 let storonaSwitch = 0;
 
-let sound = new Audio();
-sound.src = 'gitara.mp3';
+let gitar = new Audio();
+gitar.src = 'gitara.mp3';
+
+let claps = new Audio();
+claps.src = 'claps.mp3';
 
 function num1p() {
   num1.innerHTML = Number(num1.innerHTML) + 1;
@@ -30,7 +33,7 @@ function num2p() {
 }
 
 function numReset() {
-  sound.play(); smena_pod.classList.remove("invisible");
+  smena_pod.classList.remove("invisible");
   num1.innerHTML = 0;
   num2.innerHTML = 0;
 
@@ -61,17 +64,15 @@ function poda() {
     numReset();
   }
   //Konec turnira
-  if (n_round1.innerHTML == 2 && n_round2.innerHTML == 0 || n_round2.innerHTML == 2 && n_round1.innerHTML == 0) {
-    alert(`Koniec turnira`);
-  }
-
-  if (n_round1.innerHTML == 3 || n_round2.innerHTML == 3) {
+  if (n_round1.innerHTML == 2 || n_round2.innerHTML == 2) {
+    claps.play();
     alert(`Koniec turnira`);
   }
   //
 
   //Smena podach
   if (countPodach >= 5) {
+    gitar.play();
     if (storonaSwitch == 0) {
       storonaSwitch = 1;
     }
