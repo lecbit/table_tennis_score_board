@@ -44,11 +44,11 @@ function numReset() {
 
   if (storonaSwitch == 0) {
 
-    poda2.innerHTML = '<div class="mbox col-2"></div>';
+    poda2.innerHTML = '<div class="mbox col-2 rounded-circle"></div>';
   }
   else {
 
-    poda1.innerHTML = '<div class="mbox col-2"></div>';
+    poda1.innerHTML = '<div class="mbox col-2 rounded-circle"></div>';
   }
 }
 
@@ -67,6 +67,8 @@ function poda() {
   if (n_round1.innerHTML == 2 || n_round2.innerHTML == 2) {
     claps.play();
     alert(`Koniec turnira`);
+    n_round1.innerHTML = 0;
+    n_round2.innerHTML = 0;
   }
   //
 
@@ -83,27 +85,27 @@ function poda() {
   }
   //
   if (storonaSwitch == 0) {
-    poda1.innerHTML = poda1.innerHTML + '<div class="mbox col-2"></div>';
+    poda1.innerHTML = poda1.innerHTML + '<div class="mbox col-2 rounded-circle"></div>';
     poda2.innerHTML = '';
     countPodach += 1;
   }
   else {
-    poda2.innerHTML = poda2.innerHTML + '<div class="mbox col-2"></div>';
+    poda2.innerHTML = poda2.innerHTML + '<div class="mbox col-2 rounded-circle"></div>';
     poda1.innerHTML = '';
     countPodach += 1;
   }
 
 }
-
+//Knopka smeni podachi
 function smenaPod() {
   if (storonaSwitch == 0) {
     storonaSwitch = 1;
     poda1.innerHTML = '';
-    poda2.innerHTML = '<div class="mbox col-2"></div>';
+    poda2.innerHTML = '<div class="mbox col-2 rounded-circle"></div>';
   }
   else {
     storonaSwitch = 0;
     poda2.innerHTML = '';
-    poda1.innerHTML = '<div class="mbox col-2"></div>';
+    poda1.innerHTML = '<div class="mbox col-2 rounded-circle"></div>';
   }
 }
