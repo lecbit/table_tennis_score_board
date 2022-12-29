@@ -64,11 +64,19 @@ function playMode() {
 n_round1.innerHTML = Number(n_round1.innerHTML) + 1;
     numReset();
     mode = 0;
+    claps.play();
+    alert(`Koniec turnira`);
+    n_round1.innerHTML = 0;
+    n_round2.innerHTML = 0;
   }
 if (num2.innerHTML - num1.innerHTML == 2) {
    n_round2.innerHTML = Number(n_round2.innerHTML) + 1;
     numReset();
   mode = 0;
+  claps.play();
+    alert(`Koniec turnira`);
+    n_round1.innerHTML = 0;
+    n_round2.innerHTML = 0;
 }
 
 }
