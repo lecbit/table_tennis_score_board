@@ -17,7 +17,7 @@ let countPodach = 1;
 let storonaSwitch = 0;
 
 let sound = new Audio();
-sound.src = 'gitara-melodiya-rok-n-roll-korotkaya.mp3';
+sound.src = '/gitara-melodiya-rok-n-roll-korotkaya.mp3';
 
 function num1p() {
   num1.innerHTML = Number(num1.innerHTML) + 1;
