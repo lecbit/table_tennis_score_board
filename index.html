@@ -36,11 +36,11 @@
 
 
       <div class="num_t border col-5">
-        <div id="num1" class="num text-center" onclick="num1p()">0</div>
+        <div id="num1" class="num text-center" onclick="lCountPlus()">0</div>
       </div>
 
       <div class="num_t border col-5">
-        <div id="num2" class="num text-center" onclick="num2p()">0</div>
+        <div id="num2" class="num text-center" onclick="rCountPlus()">0</div>
       </div>
     </div>
 
@@ -58,9 +58,16 @@
       </div>
     </div>
 
-    <div class="row justify-content-center">
-      <div class="col-6">
-        <button onclick="smenaPod()" type="button" id='smena_podachi' class="btn btn-primary">Сменить подачу</button>
+    <div class="row justify-content-around">
+      <div class="col-2">
+        <div class="row">
+          <button onclick="storonaSwitch()" type="button" id='smena_podachi' class="btn btn-primary">Сменить подачу</button>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="row">
+          <button onclick="restartGame()" type="button" id='' class="btn btn-danger">Рестарт</button>
+        </div>
       </div>
     </div>
 
