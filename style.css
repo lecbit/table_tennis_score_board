@@ -44,7 +44,7 @@ h1{
 }
 
 
-#n_round1, #n_round2
+#text_round_left, #text_round_right
 {
   outline: 1px solid red;
   font-size: 40px;  
@@ -57,12 +57,12 @@ padding: 0;
   margin-bottom:5px;
 }
 
-#n_round1
+#text_round_left
 {
   margin-right: 20px;
 }
 
-#n_round2
+#text_round_right
 {
   margin-left: 20px;
 }
