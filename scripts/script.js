@@ -45,10 +45,10 @@ let changeSettingsMode = 0;
 let mode = 0;
 
 let gitar = new Audio();
-gitar.src = 'gitara.mp3';
+gitar.src = "./sounds/gitara.mp3";
 
 let claps = new Audio();
-claps.src = 'claps.mp3';
+claps.src = './sounds/claps.mp3';
 
 //
 if (JSON.parse(localStorage.getItem('gameSettings'))) {
