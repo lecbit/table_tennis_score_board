@@ -353,8 +353,12 @@ function namesChanger() {
         player_name2.style.display = 'block'
         nameChangeMode = 1;
 
-        player_name1.value = name1;
-        player_name2.value = name2;
+        if (name1) {
+            player_name1.value = name1;
+        }
+        if (name2) {
+            player_name2.value = name2;
+        }
     }
     else {
         player1_text.style.display = 'block'
