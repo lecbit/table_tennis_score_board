@@ -1,90 +1,110 @@
+/* GRID layout lines */
+/* .text {
+  outline: 2px red solid;
+} */
+
 body {
-  height: 100%;
-  width: 100%;
   background-color: gray;
   user-select: none;
 }
 
-h1{
-  color: green;
+.settings_text_style {
+  /* padding-left: 0; */
+  padding-right: 0;
+  font-size: 25px;
 }
 
-.num
-{
-  color: green;
-  font-size: 120px;
-}
-
-#num1
-{
-
-}
-
-
-
-.num_t
-{
-  background-color: black;
-}
-
-.counter
-{
-  
-}
-
-.names
-{
-  /* margin-top: 40%; */
-  margin-bottom: 5%;
-}
-
-.settings
-{
-  margin-top: 10%;
-}
-
-
-#text_round_left, #text_round_right
-{
-  outline: 1px solid red;
-  font-size: 40px;  
-  height: 40px;
-  width: 30px;
-  line-height:40px;
-font-weight: 10px;
-padding: 0;
-  margin-top: 10px;
-  margin-bottom:5px;
-}
-
-#text_round_left
-{
-  margin-right: 20px;
-}
-
-#text_round_right
-{
-  margin-left: 20px;
-}
-
-.balls
-{
-  margin-top: 20px;
-  margin-bottom: 5px;
-}
-.mbox
-{
+.mbox {
   border: 1px solid orange;
-  height: 30px;
   background-color: green;
+  height: 30px;
+  width: 30px;
 }
 
-#poda2 .mbox
-{
+.six-style .text .row .text{
+  border: 2px rgb(106, 106, 255) solid;
+  border-radius: 10px;
+}
+
+.six-style .text .row .settings_text_style{
+  outline: 2px rgb(4, 4, 46) solid;
+  border-radius: 10px;
+  border-right: none;
+}
+
+.six-style .text .row .space-delete{
+  outline: 2px rgb(4, 4, 46) solid;
+  border-radius: 10px;
+  border-left: none;
+}
+
+#text_round_left {
+  outline: 2px red solid;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#text_round_right {
+  outline: 2px red solid;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+#poda2 .mbox {
   background-color: red;
 }
 
-.smena_podachi
-{
-  
+/*  */
+.counters_style {
+  font-size: 140px;
+  padding-left: 0;
+  padding-right: 0;
+  background-color: black;
+  color: green;
+}
+
+.round_style {
+  font-size: 30px;
+}
+
+#player_name1_text {
+  margin: 0;
+}
+
+#player_name2_text {
+  margin: 0;
+}
+
+.space-delete {
+  margin: 0;
+  padding: 0;
+}
+
+.one_style {
+  margin-top: 10px;
+}
+
+.two-style {
+  margin-top: 50px;
+}
+
+.three-style {
+  margin-top: 10px;
+}
+
+.four-style {
+  margin-top: 20px;
+}
+
+.five-style {
+  margin-top: 15px;
+}
+
+.six-style {
+  margin-top: 30px;
+}
+
+.seven-style {
+  margin-top: 20px;
 }
