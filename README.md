@@ -1,5 +1,5 @@
 # table_tennis_score_board
-Table tennis score board online
+Table tennis score board online skore keeper ping pong scorer counter
 
 https://lecbit.github.io/table_tennis_score_board/
 
